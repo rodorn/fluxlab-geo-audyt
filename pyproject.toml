@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fluxlab-geo-audyt"
+version = "1.0.0"
+description = "Audyt GEO/AEO: widocznosc marki w odpowiedziach AI (ChatGPT/Perplexity) dla polskich SMB (FluxLab)"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.28"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+fluxlab-geo = "fluxlab_geo.cli:main"
+
+[tool.setuptools]
+packages = ["fluxlab_geo"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

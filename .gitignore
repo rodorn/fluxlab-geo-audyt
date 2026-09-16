@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+# raporty realnych klientow NIGDY do repo:
+out/*.pdf
+out/*.html
+!out/sample_mini_audyt.pdf
+client_data/
+*.local.json
+# klucze API nigdy do repo:
+.env
