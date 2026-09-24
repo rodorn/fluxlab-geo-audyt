@@ -6,6 +6,8 @@ w Krakowie". Coraz wiecej ludzi kupuje uslugi na podstawie odpowiedzi AI, a nie
 z wynikow Google. Jesli AI wymienia konkurencje zamiast Ciebie, tracisz klientow,
 o ktorych nawet nie wiesz.
 
+Zanim AI kogokolwiek poleci, musi móc przeczytać stronę. To sprawdzicie online, bez instalacji i bez rejestracji: [fluxlab.pl/widocznosc-w-ai](https://fluxlab.pl/widocznosc-w-ai) (dostęp dla botów AI, treść bez JavaScriptu, dane uporządkowane, llms.txt).
+
 To narzedzie CLI generuje 5-10 realnych zapytan zakupowych, odpytuje modele AI,
 sprawdza czy marka jest cytowana, na ktorej pozycji, kto jest polecany zamiast
 niej i z jakich zrodel korzysta AI. Wynik to gotowy, jednostronicowy mini-audyt PDF
